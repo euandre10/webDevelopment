@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+
+
+/* ROOT */
+* {
+    font-family: 'Open Sans';
+    color: #000000;
+}
+
+body {
+    background-color: #f6f9ff;
+}
+
+
+
+/* NAV MENU */
+.menu-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+}
+.menu-container img {
+    width: 10%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.list-container {
+    list-style-type: none;
+    display: flex;
+}
+.list-container li {
+    letter-spacing: 3px;
+    font-family: 'Montserrat';
+    font-size: small;
+    font-weight: bold;
+    margin: 1vh 2vw 1vh 2vw;
+    transition: 0.3s;
+}
+.list-container li:hover {
+    cursor: pointer;
+    color: #F2AE30;
+}
+.list-container a {
+    text-decoration: none;
+
+}
+
+
+
+/* MAIN */
+.aboutUs-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutUs-container img {
+    width: 30%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-top: 10vh;
+}
+.aboutUs-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 60%;
+}
+.aboutUs-info h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.aboutUs-info p {
+    text-align: justify;
+    font-size: small;
+}
+
+
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.gallery h3 {
+    font-family: 'Raleway';
+    letter-spacing: 10px;
+    margin-top: 10vh;
+}
+.gallery-dogs, .gallery-cats, .gallery-birds {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.gallery-dogs img, .gallery-cats img, .gallery-birds img {
+    width: 30%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-left: 1vw;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.gallery-dogs img:first-child, .gallery-cats img:first-child, .gallery-birds img:first-child {
+    margin-left: 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    letter-spacing: 2px;
+}
+
+.contact-container img {
+    width: 25%;
+    aspect-ratio: 1/1;
+}
+
+.email, .instagram, .facebook, .tiktok {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 15%;
+}
+
+.email p, .instagram p, .facebook p, .tiktok p {
+    font-family: 'Montserrat';
+    font-size: small;
+    margin: 0;
+}
