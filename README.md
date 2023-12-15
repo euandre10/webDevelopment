@@ -1,2 +1,2 @@
-# frontend-Studies
-things i did/do while studying front-end stuff.
+# webDevelopment 🌎
+All things in this repository are related to web projects.
